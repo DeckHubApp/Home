@@ -1,8 +1,8 @@
-# Slidable
+# DeckHub
 
-This is the Home repo for the Slidable organization, which comprises multiple projects.
+This is the Home repo for the DeckHubApp organization, which comprises multiple projects.
 
-Slidable is a [RendleLabs](https://rendlelabs.com) project with two aims:
+DeckHub is a [RendleLabs](https://rendlelabs.com) project with two aims:
 
 1. Provide a useful set of tools for speakers, listeners and conference organizers to
 engage with each other and share knowledge more effectively.
@@ -13,23 +13,23 @@ with microservices, messaging, containerization, orchestration and so on.
 
 I'm working on adding a proper README to each project that details how they work and stuff.
 
-- **[cli](https://github.com/slidable/cli)** -
+- **[cli](https://github.com/DeckHubApp/cli)** -
 is the command line tool for running presentations locally.
-- **[Live](https://github.com/slidable/Live)** -
-website (central one is running at [slidable.io](https://slidable.io)).
-- **[Identity](https://github.com/slidable/Identity)** -
+- **[Live](https://github.com/DeckHubApp/Live)** -
+website (central one is running at [deckhub.app](https://deckhub.app)).
+- **[Identity](https://github.com/DeckHubApp/Identity)** -
 microsite to handle user authentication with [ASP.NET Identity](https://github.com/aspnet/Identity)
-- **[Shows](https://github.com/slidable/Shows)** -
+- **[Shows](https://github.com/DeckHubApp/Shows)** -
 microservice for Shows.
-- **[Questions](https://github.com/slidable/Questions)** -
+- **[Questions](https://github.com/DeckHubApp/Questions)** -
 microservice for Questions.
-- **[Notes](https://github.com/slidable/Notes)** -
+- **[Notes](https://github.com/DeckHubApp/Notes)** -
 microservice for viewer Notes.
-- **[Realtime](https://github.com/slidable/Realtime)** -
+- **[Realtime](https://github.com/DeckHubApp/Realtime)** -
 [SignalR](https://github.com/aspnet/SignalR) service for moving slides along on viewers devices, and live feed of Questions.
-- **[Slide](https://github.com/slidable/Slides)** -
+- **[Slide](https://github.com/DeckHubApp/Slides)** -
 very microservice for storing and serving Slide images in Azure Blob Storage.
-- **[Presenter](https://github.com/slidable/Presenter)** -
+- **[Presenter](https://github.com/DeckHubApp/Presenter)** -
 microservice for the CLI to interact with, and to render Presenter View.
 
 This Home repo will also contain the Docker Compose and Kubernetes files used to work with the
